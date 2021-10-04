@@ -12,7 +12,7 @@ public class GovernmentProgram {
         programType = types[pick];
     }
 
-    public payBill(double bill){
+    public void payBill(double bill){
         if (programType.equals("CongressCare"))
             System.out.println(programType + " Just paid a bill of "+ bill*3);
         else
