@@ -9,6 +9,7 @@ public class Doctor {
     }
 
     public double billPatient(Person patient){
+        patient.payBill(fee);
         return fee;
     }
 
