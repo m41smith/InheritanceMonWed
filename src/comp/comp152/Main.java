@@ -17,5 +17,6 @@ public class Main {
         doc.treatPatient(sickPerson1);
         doc.billPatient(sickPerson1);
         System.out.println(doc);
+        WeekDay appointmentDay = WeekDay.Monday;
     }
 }
