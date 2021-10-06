@@ -16,5 +16,6 @@ public class Main {
         Doctor doc = inNetworkDoctors.get(choice);
         doc.treatPatient(sickPerson1);
         doc.billPatient(sickPerson1);
+        System.out.println(doc);
     }
 }
