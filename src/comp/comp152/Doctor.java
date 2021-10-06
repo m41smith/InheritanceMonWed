@@ -35,6 +35,7 @@ public class Doctor {
             return false;
         }
         Doctor otherDoctor = (Doctor) other;
-        var isSame = this.fee == otherDoctor.fee
+        var isSame = this.fee == otherDoctor.fee && this.AlmaMater.equals(otherDoctor.AlmaMater);
+        return isSame;
     }
 }
